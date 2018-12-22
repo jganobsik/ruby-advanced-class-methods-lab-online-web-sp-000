@@ -45,6 +45,6 @@ class Song
   end
   
   def Song.alphabetical
-    @@all.sort_by()
+    @@all.sort_by(a <=> b)
   end
 end
