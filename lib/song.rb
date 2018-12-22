@@ -9,5 +9,14 @@ class Song
   def save
     self.class.all << self
   end
-
+  
+  def Song.new_by_name(name)
+    @name =  name 
+    self
+  end
+  
+  def initialize
+    @@all << self 
+  end
+    
 end
