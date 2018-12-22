@@ -30,4 +30,7 @@ class Song
     new_song
   end
     
+  def Song.find_by_name(name)
+    
+  end
 end
